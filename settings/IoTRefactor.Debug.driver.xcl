@@ -1,10 +1,26 @@
+"--hwmul_base" 
+
+"0x4C0" 
+
 "--hardware_multiplier" 
 
-"16" 
+"32" 
 
 "--hwmult_type" 
 
-"1" 
+"8" 
+
+"-p" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 9.1\430\config\debugger\msp430fr5739.ddf" 
+
+"--core=430Xv2" 
+
+"--data_model=small" 
+
+"--iv_base" 
+
+"0xFF90" 
 
 "--odd_word_check" 
 
@@ -14,7 +30,7 @@
 
 "--derivativeSim" 
 
-"Generic MSP430 device" 
+"MSP430FR5739" 
 
 
 
