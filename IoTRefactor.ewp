@@ -2251,4 +2251,10 @@
     <file>
         <name>$PROJ_DIR$\System_Clocks.h</name>
     </file>
+    <file>
+        <name>$PROJ_DIR$\System_Ports.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\System_Ports.h</name>
+    </file>
 </project>
