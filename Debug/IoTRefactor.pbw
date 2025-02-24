@@ -1,19 +1,5 @@
 [
   {
-    "ID": "c:@F@main",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void main(void)",
-    "location": {
-      "column": "6",
-      "line": "18",
-      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\main.c"
-    },
-    "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:msp430fr5739.h@706@macro@__MSP430FR5739",
     "What": "MacroDef",
     "defdec": "Def",
@@ -1598,20 +1584,6 @@
         },
         "members": [
           {
-            "ID": "c:msp430fr5739.h@Ua@FI@ADC10IV",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "ADC10IV",
-            "location": {
-              "column": "1",
-              "line": "223",
-              "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
-            },
-            "name": "ADC10IV",
-            "origin": "system_include",
-            "scope": "_anonymous_msp430fr5739_h_223_1::_anonymous_msp430fr5739_h_223_1"
-          },
-          {
             "ID": "c:msp430fr5739.h@Ua@Sa@FI@ADC10IV_H",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -1636,6 +1608,20 @@
               "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
             },
             "name": "ADC10IV_L",
+            "origin": "system_include",
+            "scope": "_anonymous_msp430fr5739_h_223_1::_anonymous_msp430fr5739_h_223_1"
+          },
+          {
+            "ID": "c:msp430fr5739.h@Ua@FI@ADC10IV",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "ADC10IV",
+            "location": {
+              "column": "1",
+              "line": "223",
+              "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
+            },
+            "name": "ADC10IV",
             "origin": "system_include",
             "scope": "_anonymous_msp430fr5739_h_223_1::_anonymous_msp430fr5739_h_223_1"
           }
@@ -4200,20 +4186,6 @@
         },
         "members": [
           {
-            "ID": "c:msp430fr5739.h@Ua@FI@CSCTL2",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "CSCTL2",
-            "location": {
-              "column": "1",
-              "line": "442",
-              "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
-            },
-            "name": "CSCTL2",
-            "origin": "system_include",
-            "scope": "_anonymous_msp430fr5739_h_442_1::_anonymous_msp430fr5739_h_442_1"
-          },
-          {
             "ID": "c:msp430fr5739.h@Ua@Sa@FI@CSCTL2_H",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -4238,6 +4210,20 @@
               "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
             },
             "name": "CSCTL2_L",
+            "origin": "system_include",
+            "scope": "_anonymous_msp430fr5739_h_442_1::_anonymous_msp430fr5739_h_442_1"
+          },
+          {
+            "ID": "c:msp430fr5739.h@Ua@FI@CSCTL2",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "CSCTL2",
+            "location": {
+              "column": "1",
+              "line": "442",
+              "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
+            },
+            "name": "CSCTL2",
             "origin": "system_include",
             "scope": "_anonymous_msp430fr5739_h_442_1::_anonymous_msp430fr5739_h_442_1"
           }
@@ -4288,20 +4274,6 @@
         },
         "members": [
           {
-            "ID": "c:msp430fr5739.h@Ua@FI@CSCTL3",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "CSCTL3",
-            "location": {
-              "column": "1",
-              "line": "444",
-              "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
-            },
-            "name": "CSCTL3",
-            "origin": "system_include",
-            "scope": "_anonymous_msp430fr5739_h_444_1::_anonymous_msp430fr5739_h_444_1"
-          },
-          {
             "ID": "c:msp430fr5739.h@Ua@Sa@FI@CSCTL3_H",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -4326,6 +4298,20 @@
               "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
             },
             "name": "CSCTL3_L",
+            "origin": "system_include",
+            "scope": "_anonymous_msp430fr5739_h_444_1::_anonymous_msp430fr5739_h_444_1"
+          },
+          {
+            "ID": "c:msp430fr5739.h@Ua@FI@CSCTL3",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "CSCTL3",
+            "location": {
+              "column": "1",
+              "line": "444",
+              "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
+            },
+            "name": "CSCTL3",
             "origin": "system_include",
             "scope": "_anonymous_msp430fr5739_h_444_1::_anonymous_msp430fr5739_h_444_1"
           }
@@ -44244,20 +44230,6 @@
         },
         "members": [
           {
-            "ID": "c:msp430fr5739.h@Ua@FI@UCA1BRW",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "UCA1BRW",
-            "location": {
-              "column": "1",
-              "line": "3502",
-              "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
-            },
-            "name": "UCA1BRW",
-            "origin": "system_include",
-            "scope": "_anonymous_msp430fr5739_h_3502_1::_anonymous_msp430fr5739_h_3502_1"
-          },
-          {
             "ID": "c:msp430fr5739.h@Ua@Sa@FI@UCA1BRW_H",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -44282,6 +44254,20 @@
               "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
             },
             "name": "UCA1BRW_L",
+            "origin": "system_include",
+            "scope": "_anonymous_msp430fr5739_h_3502_1::_anonymous_msp430fr5739_h_3502_1"
+          },
+          {
+            "ID": "c:msp430fr5739.h@Ua@FI@UCA1BRW",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "UCA1BRW",
+            "location": {
+              "column": "1",
+              "line": "3502",
+              "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
+            },
+            "name": "UCA1BRW",
             "origin": "system_include",
             "scope": "_anonymous_msp430fr5739_h_3502_1::_anonymous_msp430fr5739_h_3502_1"
           }
@@ -44360,20 +44346,6 @@
         },
         "members": [
           {
-            "ID": "c:msp430fr5739.h@Ua@FI@UCA1MCTLW",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "UCA1MCTLW",
-            "location": {
-              "column": "1",
-              "line": "3506",
-              "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
-            },
-            "name": "UCA1MCTLW",
-            "origin": "system_include",
-            "scope": "_anonymous_msp430fr5739_h_3506_1::_anonymous_msp430fr5739_h_3506_1"
-          },
-          {
             "ID": "c:msp430fr5739.h@Ua@Sa@FI@UCA1MCTLW_H",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -44398,6 +44370,20 @@
               "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
             },
             "name": "UCA1MCTLW_L",
+            "origin": "system_include",
+            "scope": "_anonymous_msp430fr5739_h_3506_1::_anonymous_msp430fr5739_h_3506_1"
+          },
+          {
+            "ID": "c:msp430fr5739.h@Ua@FI@UCA1MCTLW",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "UCA1MCTLW",
+            "location": {
+              "column": "1",
+              "line": "3506",
+              "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
+            },
+            "name": "UCA1MCTLW",
             "origin": "system_include",
             "scope": "_anonymous_msp430fr5739_h_3506_1::_anonymous_msp430fr5739_h_3506_1"
           }
@@ -44476,20 +44462,6 @@
         },
         "members": [
           {
-            "ID": "c:msp430fr5739.h@Ua@FI@UCA1RXBUF",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "UCA1RXBUF",
-            "location": {
-              "column": "1",
-              "line": "3510",
-              "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
-            },
-            "name": "UCA1RXBUF",
-            "origin": "system_include",
-            "scope": "_anonymous_msp430fr5739_h_3510_1::_anonymous_msp430fr5739_h_3510_1"
-          },
-          {
             "ID": "c:msp430fr5739.h@Ua@Sa@FI@UCA1RXBUF_H",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -44514,6 +44486,20 @@
               "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
             },
             "name": "UCA1RXBUF_L",
+            "origin": "system_include",
+            "scope": "_anonymous_msp430fr5739_h_3510_1::_anonymous_msp430fr5739_h_3510_1"
+          },
+          {
+            "ID": "c:msp430fr5739.h@Ua@FI@UCA1RXBUF",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "UCA1RXBUF",
+            "location": {
+              "column": "1",
+              "line": "3510",
+              "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
+            },
+            "name": "UCA1RXBUF",
             "origin": "system_include",
             "scope": "_anonymous_msp430fr5739_h_3510_1::_anonymous_msp430fr5739_h_3510_1"
           }
@@ -45042,20 +45028,6 @@
         },
         "members": [
           {
-            "ID": "c:msp430fr5739.h@Ua@Sa@FI@WDTCTL_H",
-            "What": "FieldDecl",
-            "defdec": "Def",
-            "display": "WDTCTL_H",
-            "location": {
-              "column": "1",
-              "line": "3535",
-              "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
-            },
-            "name": "WDTCTL_H",
-            "origin": "system_include",
-            "scope": "_anonymous_msp430fr5739_h_3535_1::_anonymous_msp430fr5739_h_3535_1"
-          },
-          {
             "ID": "c:msp430fr5739.h@Ua@FI@WDTCTL",
             "What": "FieldDecl",
             "defdec": "Def",
@@ -45066,6 +45038,20 @@
               "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
             },
             "name": "WDTCTL",
+            "origin": "system_include",
+            "scope": "_anonymous_msp430fr5739_h_3535_1::_anonymous_msp430fr5739_h_3535_1"
+          },
+          {
+            "ID": "c:msp430fr5739.h@Ua@Sa@FI@WDTCTL_H",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "WDTCTL_H",
+            "location": {
+              "column": "1",
+              "line": "3535",
+              "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1\\430\\inc\\msp430fr5739.h"
+            },
+            "name": "WDTCTL_H",
             "origin": "system_include",
             "scope": "_anonymous_msp430fr5739_h_3535_1::_anonymous_msp430fr5739_h_3535_1"
           },
@@ -47362,170 +47348,72 @@
     "scope": null
   },
   {
-    "ID": "c:@F@Init_ClockSystem",
+    "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
-    "display": "void Init_ClockSystem(void)",
-    "location": {
-      "column": "6",
-      "line": "23",
-      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Clocks.c"
-    },
-    "name": "Init_ClockSystem",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Init_LowPowerModes",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Init_LowPowerModes(void)",
-    "location": {
-      "column": "6",
-      "line": "109",
-      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Clocks.c"
-    },
-    "name": "Init_LowPowerModes",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Delay_Xms",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Delay_Xms(unsigned int)",
-    "location": {
-      "column": "6",
-      "line": "114",
-      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Clocks.c"
-    },
-    "name": "Delay_Xms",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:System_Clocks.h@520@macro@CLEAR_REGISTER",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CLEAR_REGISTER",
-    "location": {
-      "column": "9",
-      "line": "12",
-      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Clocks.h"
-    },
-    "name": "CLEAR_REGISTER",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:System_Clocks.h@573@macro@ONE_SECOND",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ONE_SECOND",
-    "location": {
-      "column": "9",
-      "line": "13",
-      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Clocks.h"
-    },
-    "name": "ONE_SECOND",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Init_ClockSystem",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Init_ClockSystem(void)",
-    "location": {
-      "column": "6",
-      "line": "25",
-      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Clocks.h"
-    },
-    "name": "Init_ClockSystem",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Init_AllPorts",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Init_AllPorts(void)",
+    "display": "void main(void)",
     "location": {
       "column": "6",
       "line": "20",
-      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\main.c"
     },
-    "name": "Init_AllPorts",
+    "name": "main",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@Init_Port1",
+    "ID": "c:@F@System_InitAll",
     "What": "Function",
-    "defdec": "Def",
-    "display": "void Init_Port1(void)",
+    "defdec": "Dec",
+    "display": "void System_InitAll(void)",
     "location": {
       "column": "6",
-      "line": "28",
-      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
+      "line": "21",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System.h"
     },
-    "name": "Init_Port1",
+    "name": "System_InitAll",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@System_InitAll",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void System_InitAll(void)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System.h"
+    },
+    "name": "System_InitAll",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@enable_interrupts",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void enable_interrupts(void)",
+    "location": {
+      "column": "6",
+      "line": "37",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System.c"
+    },
+    "name": "enable_interrupts",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@Init_Port2",
+    "ID": "c:@F@System_InitAll",
     "What": "Function",
     "defdec": "Def",
-    "display": "void Init_Port2(void)",
+    "display": "void System_InitAll(void)",
     "location": {
       "column": "6",
-      "line": "115",
-      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
+      "line": "49",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System.c"
     },
-    "name": "Init_Port2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Init_Port3",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Init_Port3(void)",
-    "location": {
-      "column": "6",
-      "line": "197",
-      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
-    },
-    "name": "Init_Port3",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Init_Port4",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Init_Port4(void)",
-    "location": {
-      "column": "6",
-      "line": "296",
-      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
-    },
-    "name": "Init_Port4",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Init_PortJ",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Init_PortJ(void)",
-    "location": {
-      "column": "6",
-      "line": "334",
-      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
-    },
-    "name": "Init_PortJ",
+    "name": "System_InitAll",
     "origin": "project_file",
     "scope": null
   },
@@ -48006,6 +47894,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@Init_AllPorts",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Init_AllPorts(void)",
+    "location": {
+      "column": "6",
+      "line": "65",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.h"
+    },
+    "name": "Init_AllPorts",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@Init_Port1",
     "What": "Function",
     "defdec": "Dec",
@@ -48016,6 +47918,34 @@
       "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.h"
     },
     "name": "Init_Port1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_Port1",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Init_Port1(void)",
+    "location": {
+      "column": "6",
+      "line": "74",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.h"
+    },
+    "name": "Init_Port1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_Port2",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Init_Port2(void)",
+    "location": {
+      "column": "6",
+      "line": "83",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.h"
+    },
+    "name": "Init_Port2",
     "origin": "user_include",
     "scope": null
   },
@@ -48048,6 +47978,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@Init_Port3",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Init_Port3(void)",
+    "location": {
+      "column": "6",
+      "line": "92",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.h"
+    },
+    "name": "Init_Port3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_Port4",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Init_Port4(void)",
+    "location": {
+      "column": "6",
+      "line": "101",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.h"
+    },
+    "name": "Init_Port4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@Init_Port4",
     "What": "Function",
     "defdec": "Dec",
@@ -48073,6 +48031,202 @@
     },
     "name": "Init_PortJ",
     "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_PortJ",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Init_PortJ(void)",
+    "location": {
+      "column": "6",
+      "line": "110",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.h"
+    },
+    "name": "Init_PortJ",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:System_Clocks.h@520@macro@CLEAR_REGISTER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLEAR_REGISTER",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Clocks.h"
+    },
+    "name": "CLEAR_REGISTER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:System_Clocks.h@573@macro@ONE_SECOND",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ONE_SECOND",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Clocks.h"
+    },
+    "name": "ONE_SECOND",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_ClockSystem",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Init_ClockSystem(void)",
+    "location": {
+      "column": "6",
+      "line": "25",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Clocks.h"
+    },
+    "name": "Init_ClockSystem",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_ClockSystem",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Init_ClockSystem(void)",
+    "location": {
+      "column": "6",
+      "line": "25",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Clocks.h"
+    },
+    "name": "Init_ClockSystem",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_ClockSystem",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Init_ClockSystem(void)",
+    "location": {
+      "column": "6",
+      "line": "23",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Clocks.c"
+    },
+    "name": "Init_ClockSystem",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_LowPowerModes",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Init_LowPowerModes(void)",
+    "location": {
+      "column": "6",
+      "line": "109",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Clocks.c"
+    },
+    "name": "Init_LowPowerModes",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Delay_Xms",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Delay_Xms(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "114",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Clocks.c"
+    },
+    "name": "Delay_Xms",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_AllPorts",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Init_AllPorts(void)",
+    "location": {
+      "column": "6",
+      "line": "20",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
+    },
+    "name": "Init_AllPorts",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_Port1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Init_Port1(void)",
+    "location": {
+      "column": "6",
+      "line": "28",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
+    },
+    "name": "Init_Port1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_Port2",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Init_Port2(void)",
+    "location": {
+      "column": "6",
+      "line": "115",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
+    },
+    "name": "Init_Port2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_Port3",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Init_Port3(void)",
+    "location": {
+      "column": "6",
+      "line": "197",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
+    },
+    "name": "Init_Port3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_Port4",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Init_Port4(void)",
+    "location": {
+      "column": "6",
+      "line": "296",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
+    },
+    "name": "Init_Port4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_PortJ",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Init_PortJ(void)",
+    "location": {
+      "column": "6",
+      "line": "334",
+      "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
+    },
+    "name": "Init_PortJ",
+    "origin": "project_file",
     "scope": null
   }
 ]

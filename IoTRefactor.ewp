@@ -2246,6 +2246,12 @@
         <name>$PROJ_DIR$\msp430.h</name>
     </file>
     <file>
+        <name>$PROJ_DIR$\System.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\System.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\System_Clocks.c</name>
     </file>
     <file>

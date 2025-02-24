@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>5</fileVersion>
-    <fileChecksum>647186174</fileChecksum>
+    <fileChecksum>1372609743</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
@@ -22,6 +22,9 @@
             <file>$PROJ_DIR$\Debug\Obj\System_Clocks.r43</file>
             <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
             <file>$PROJ_DIR$\Debug\Obj\System_Ports.r43</file>
+            <file>$PROJ_DIR$\System.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\System.r43</file>
+            <file>$PROJ_DIR$\System.h</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\IoTRefactor.d43</name>
@@ -61,6 +64,12 @@
                     <file> 15</file>
                 </tool>
             </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 10 3 6 4 19</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\System_Ports.c</name>
@@ -87,6 +96,15 @@
                 <tool>
                     <name>ULP430</name>
                     <file> 5</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\System.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 18</file>
                 </tool>
             </outputs>
         </file>
