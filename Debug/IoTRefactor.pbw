@@ -47452,7 +47452,7 @@
     "display": "void Init_AllPorts(void)",
     "location": {
       "column": "6",
-      "line": "21",
+      "line": "20",
       "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
     },
     "name": "Init_AllPorts",
@@ -47466,7 +47466,7 @@
     "display": "void Init_Port1(void)",
     "location": {
       "column": "6",
-      "line": "29",
+      "line": "28",
       "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
     },
     "name": "Init_Port1",
@@ -47480,7 +47480,7 @@
     "display": "void Init_Port2(void)",
     "location": {
       "column": "6",
-      "line": "116",
+      "line": "115",
       "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
     },
     "name": "Init_Port2",
@@ -47494,7 +47494,7 @@
     "display": "void Init_Port3(void)",
     "location": {
       "column": "6",
-      "line": "120",
+      "line": "197",
       "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
     },
     "name": "Init_Port3",
@@ -47508,7 +47508,7 @@
     "display": "void Init_Port4(void)",
     "location": {
       "column": "6",
-      "line": "124",
+      "line": "296",
       "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
     },
     "name": "Init_Port4",
@@ -47522,7 +47522,7 @@
     "display": "void Init_PortJ(void)",
     "location": {
       "column": "6",
-      "line": "128",
+      "line": "334",
       "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.c"
     },
     "name": "Init_PortJ",
@@ -47950,44 +47950,44 @@
     "scope": null
   },
   {
-    "ID": "c:System_Ports.h@2343@macro@RESET",
+    "ID": "c:System_Ports.h@2343@macro@IOT_RESET",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "RESET",
+    "display": "IOT_RESET",
     "location": {
       "column": "9",
       "line": "52",
       "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.h"
     },
-    "name": "RESET",
+    "name": "IOT_RESET",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:System_Ports.h@2402@macro@XINR",
+    "ID": "c:System_Ports.h@2402@macro@IOT_XINR",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "XINR",
+    "display": "IOT_XINR",
     "location": {
       "column": "9",
       "line": "53",
       "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.h"
     },
-    "name": "XINR",
+    "name": "IOT_XINR",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:System_Ports.h@2460@macro@XOUTR",
+    "ID": "c:System_Ports.h@2460@macro@IOT_XOUTR",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "XOUTR",
+    "display": "IOT_XOUTR",
     "location": {
       "column": "9",
       "line": "54",
       "path": "C:\\Users\\rache\\Desktop\\BareMetal_IoTCar_Refactor\\System_Ports.h"
     },
-    "name": "XOUTR",
+    "name": "IOT_XOUTR",
     "origin": "user_include",
     "scope": null
   },

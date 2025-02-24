@@ -2,7 +2,7 @@
 //   Name: System_Ports.h
 //   Author: Rachel E. Williams
 //   Date Created: February 23, 2025
-//   Last Updated: 2/22/2025
+//   Last Updated: 2/24/2025
 //   Description: This is the header file for System_Ports.c, containing 
 //                function declarations and relevant macros 
 //   Built with IAR Embedded Workbench IDE - MSP430 V8.10.3 
@@ -49,9 +49,9 @@
 #define IOT_FACTORY                      (0x01u) // PJ.0 
 #define IOT_WAKEUP                       (0x02u) // PJ.1 
 #define IOT_STA_MINIAP                   (0x04u) // PJ.2 
-#define RESET                            (0x08u) // PJ.3 
-#define XINR                             (0x10u) // XINR
-#define XOUTR                            (0x20u) // XOUTR
+#define IOT_RESET                        (0x08u) // PJ.3 
+#define IOT_XINR                         (0x10u) // XINR
+#define IOT_XOUTR                        (0x20u) // XOUTR
 
 /* Function declarations */ 
 //------------------------------------------------------------------------------
