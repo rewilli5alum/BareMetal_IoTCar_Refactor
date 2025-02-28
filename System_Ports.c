@@ -2,7 +2,7 @@
 //   Name: System_Ports.c
 //   Author: Rachel E. Williams
 //   Date Created: February 23, 2025
-//   Last Updated: 2/24/2025
+//   Last Updated: 2/27/2025
 //   Description: This file contains the configuration and initialization of 
 //                Ports 1,2,3,4, and J for the system--the MSP430FR5739 board
 //                and custom ASIC Control Board 
@@ -374,7 +374,7 @@ void Init_PortJ(void){
   PJSEL0 &= ~IOT_RESET;           // Configured pin function as GPIO
   PJSEL1 &= ~IOT_RESET;           // Configured pin function as GPIO
 
-  // XT1 Setup
-  PJSEL0 |= IOT_XINR;
-  PJSEL0 |= IOT_XOUTR;
+  // XT1 Oscillator Setup for XIN and XOUT
+  PJSEL0 |= IOT_XINR;             // PJSEL bit set to be configured for XT1 use
+  PJSEL0 |= IOT_XOUTR;            // PJSEL bit set to be configured for XT1 use
 }

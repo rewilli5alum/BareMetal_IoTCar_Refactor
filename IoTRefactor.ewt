@@ -2630,6 +2630,9 @@
         </settings>
     </configuration>
     <file>
+        <name>$PROJ_DIR$\LCD.r43</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\main.c</name>
     </file>
     <file>
@@ -2652,5 +2655,14 @@
     </file>
     <file>
         <name>$PROJ_DIR$\System_Ports.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\System_Timers.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\System_Timers.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\timersB2.r43</name>
     </file>
 </project>

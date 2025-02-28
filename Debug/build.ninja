@@ -44,6 +44,11 @@ build C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Ports.xcl :
   flags = C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\System_Ports.c -o C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430FR5739__ -e --double=32 --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\lib\dlib\dl430xlsfn.h" --core=430X --data_model=small -Ol --multiplier=32 --hw_workaround=CPU40 --code_model=large --predef_macros C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Ports.tmp
   rspfile_name = C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Ports.xcl.rsp
 
+build C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Timers.xcl : COMPILER_XCL 
+  xclcommand = -source_file C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\System_Timers.c -xcl_file C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Timers.xcl -macro_file C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Timers.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\bin\icc430.exe" -u8_wrapper "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\iarconvert.exe"
+  flags = C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\System_Timers.c -o C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --debug -D__MSP430FR5739__ -e --double=32 --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\lib\dlib\dl430xlsfn.h" --core=430X --data_model=small -Ol --multiplier=32 --hw_workaround=CPU40 --code_model=large --predef_macros C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Timers.tmp
+  rspfile_name = C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Timers.xcl.rsp
+
 build C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\main.pbi : INDEXER C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\main.xcl |  $
 C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\main.c
   flags = -out=C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\main.pbi -f C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\main.xcl
@@ -60,12 +65,26 @@ build C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Ports.pbi :
 C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\System_Ports.c
   flags = -out=C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Ports.pbi -f C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Ports.xcl
 
+build C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Timers.pbi : INDEXER C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Timers.xcl |  $
+C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\System_Timers.c
+  flags = -out=C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Timers.pbi -f C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Timers.xcl
+
 build C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor.pbw : MAKEBROWSE C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor.pbd
   flags = C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor.pbd -output C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor.pbw
 
-build C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor.pbd : PDBLINK C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\main.pbi |  $
-C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System.pbi $
-C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Clocks.pbi $
+build C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor_part0.pbi : PDBLINK C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\main.pbi |  $
+C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System.pbi
+  flags = -M C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor_part0.pbi C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\main.pbi C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System.pbi
+
+build C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor_part1.pbi : PDBLINK C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Clocks.pbi |  $
 C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Ports.pbi
-  flags = -M C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor.pbd C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\main.pbi C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System.pbi C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Clocks.pbi C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Ports.pbi
+  flags = -M C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor_part1.pbi C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Clocks.pbi C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Ports.pbi
+
+build C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor_part2.pbi : PDBLINK C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Timers.pbi
+  flags = -M C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor_part2.pbi C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\System_Timers.pbi
+
+build C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor.pbd : PDBLINK C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor_part0.pbi |  $
+C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor_part1.pbi $
+C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor_part2.pbi
+  flags = -M C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor.pbd C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor_part0.pbi C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor_part1.pbi C$:\Users\rache\Desktop\BareMetal_IoTCar_Refactor\Debug\IoTRefactor_part2.pbi
 
