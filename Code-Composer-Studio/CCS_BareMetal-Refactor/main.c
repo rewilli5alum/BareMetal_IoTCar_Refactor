@@ -29,13 +29,6 @@
  * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  * --/COPYRIGHT--*/
-#include "driverlib.h"
-
-//******************************************************************************
-//!
-//!   Empty Project that includes driverlib
-//!
-//******************************************************************************
 
 //******************************************************************************
 //   Name: main.c
@@ -48,6 +41,7 @@
 //******************************************************************************  
 
 /* #includes */ 
+#include "driverlib.h"
 #include "msp430.h" 
 #include "System.h"
 
@@ -67,3 +61,4 @@ void main(void){
   //---->Motors.c 
 
 }
+
