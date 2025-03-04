@@ -2,7 +2,9 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-CG_TOOL_ROOT := /Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS
+SHELL = cmd.exe
+
+CG_TOOL_ROOT := C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS
 
 GEN_OPTS__FLAG := 
 GEN_CMDS__FLAG := 
@@ -43,8 +45,8 @@ $(GEN_CMDS__FLAG) \
 
 -include ../makefile.init
 
-RM := rm -rf
-RMDIR := rm -rf
+RM := DEL /F
+RMDIR := RMDIR /S/Q
 
 # All of the sources participating in the build are defined here
 -include sources.mk
@@ -148,10 +150,16 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXE_OUTPUTS += \
-CCS_BareMetal-Refactor.out 
+CCS_BareMetal-Refactor.out \
 
 EXE_OUTPUTS__QUOTED += \
-"CCS_BareMetal-Refactor.out" 
+"CCS_BareMetal-Refactor.out" \
+
+BIN_OUTPUTS += \
+CCS_BareMetal-Refactor.hex \
+
+BIN_OUTPUTS__QUOTED += \
+"CCS_BareMetal-Refactor.hex" \
 
 
 # All Target
@@ -162,15 +170,22 @@ all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 CCS_BareMetal-Refactor.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: MSP430 Linker'
-	"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power="none" --define=__MSP430FR5739__ --define=_MPU_ENABLE --define=DEPRECATED -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"CCS_BareMetal-Refactor.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include" -i"/Applications/ti/ccs2002/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/Applications/ti/ccs2002/ccs/ccs_base/msp430/lib/FR57xx" -i"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="CCS_BareMetal-Refactor_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "CCS_BareMetal-Refactor.out" $(ORDERED_OBJS)
+	"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --use_hw_mpy=F5 --advice:power="none" --define=__MSP430FR5739__ --define=_MPU_ENABLE --define=DEPRECATED -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"CCS_BareMetal-Refactor.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1200/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1200/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1200/ccs/ccs_base/msp430/lib/FR57xx" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --priority --reread_libs --define=_MPU_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="CCS_BareMetal-Refactor_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "CCS_BareMetal-Refactor.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
+	@echo ' '
+
+CCS_BareMetal-Refactor.hex: $(EXE_OUTPUTS)
+	@echo 'Building secondary target: "$@"'
+	@echo 'Invoking: MSP430 Hex Utility'
+	"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off -o "CCS_BareMetal-Refactor.hex" $(EXE_OUTPUTS__QUOTED)
+	@echo 'Finished building secondary target: "$@"'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(EXE_OUTPUTS__QUOTED)
-	-$(RM) "System.obj" "System_Clocks.obj" "System_Ports.obj" "System_Timers.obj" "main.obj" "driverlib/MSP430FR57xx/adc10_b.obj" "driverlib/MSP430FR57xx/comp_d.obj" "driverlib/MSP430FR57xx/crc.obj" "driverlib/MSP430FR57xx/cs.obj" "driverlib/MSP430FR57xx/dma.obj" "driverlib/MSP430FR57xx/eusci_a_spi.obj" "driverlib/MSP430FR57xx/eusci_a_uart.obj" "driverlib/MSP430FR57xx/eusci_b_i2c.obj" "driverlib/MSP430FR57xx/eusci_b_spi.obj" "driverlib/MSP430FR57xx/framctl.obj" "driverlib/MSP430FR57xx/gpio.obj" "driverlib/MSP430FR57xx/mpu.obj" "driverlib/MSP430FR57xx/mpy32.obj" "driverlib/MSP430FR57xx/pmm.obj" "driverlib/MSP430FR57xx/ref.obj" "driverlib/MSP430FR57xx/rtc_b.obj" "driverlib/MSP430FR57xx/sfr.obj" "driverlib/MSP430FR57xx/sysctl.obj" "driverlib/MSP430FR57xx/timer_a.obj" "driverlib/MSP430FR57xx/timer_b.obj" "driverlib/MSP430FR57xx/tlv.obj" "driverlib/MSP430FR57xx/wdt_a.obj" 
-	-$(RM) "System.d" "System_Clocks.d" "System_Ports.d" "System_Timers.d" "main.d" "driverlib/MSP430FR57xx/adc10_b.d" "driverlib/MSP430FR57xx/comp_d.d" "driverlib/MSP430FR57xx/crc.d" "driverlib/MSP430FR57xx/cs.d" "driverlib/MSP430FR57xx/dma.d" "driverlib/MSP430FR57xx/eusci_a_spi.d" "driverlib/MSP430FR57xx/eusci_a_uart.d" "driverlib/MSP430FR57xx/eusci_b_i2c.d" "driverlib/MSP430FR57xx/eusci_b_spi.d" "driverlib/MSP430FR57xx/framctl.d" "driverlib/MSP430FR57xx/gpio.d" "driverlib/MSP430FR57xx/mpu.d" "driverlib/MSP430FR57xx/mpy32.d" "driverlib/MSP430FR57xx/pmm.d" "driverlib/MSP430FR57xx/ref.d" "driverlib/MSP430FR57xx/rtc_b.d" "driverlib/MSP430FR57xx/sfr.d" "driverlib/MSP430FR57xx/sysctl.d" "driverlib/MSP430FR57xx/timer_a.d" "driverlib/MSP430FR57xx/timer_b.d" "driverlib/MSP430FR57xx/tlv.d" "driverlib/MSP430FR57xx/wdt_a.d" 
+	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
+	-$(RM) "System.obj" "System_Clocks.obj" "System_Ports.obj" "System_Timers.obj" "main.obj" "driverlib\MSP430FR57xx\adc10_b.obj" "driverlib\MSP430FR57xx\comp_d.obj" "driverlib\MSP430FR57xx\crc.obj" "driverlib\MSP430FR57xx\cs.obj" "driverlib\MSP430FR57xx\dma.obj" "driverlib\MSP430FR57xx\eusci_a_spi.obj" "driverlib\MSP430FR57xx\eusci_a_uart.obj" "driverlib\MSP430FR57xx\eusci_b_i2c.obj" "driverlib\MSP430FR57xx\eusci_b_spi.obj" "driverlib\MSP430FR57xx\framctl.obj" "driverlib\MSP430FR57xx\gpio.obj" "driverlib\MSP430FR57xx\mpu.obj" "driverlib\MSP430FR57xx\mpy32.obj" "driverlib\MSP430FR57xx\pmm.obj" "driverlib\MSP430FR57xx\ref.obj" "driverlib\MSP430FR57xx\rtc_b.obj" "driverlib\MSP430FR57xx\sfr.obj" "driverlib\MSP430FR57xx\sysctl.obj" "driverlib\MSP430FR57xx\timer_a.obj" "driverlib\MSP430FR57xx\timer_b.obj" "driverlib\MSP430FR57xx\tlv.obj" "driverlib\MSP430FR57xx\wdt_a.obj" 
+	-$(RM) "System.d" "System_Clocks.d" "System_Ports.d" "System_Timers.d" "main.d" "driverlib\MSP430FR57xx\adc10_b.d" "driverlib\MSP430FR57xx\comp_d.d" "driverlib\MSP430FR57xx\crc.d" "driverlib\MSP430FR57xx\cs.d" "driverlib\MSP430FR57xx\dma.d" "driverlib\MSP430FR57xx\eusci_a_spi.d" "driverlib\MSP430FR57xx\eusci_a_uart.d" "driverlib\MSP430FR57xx\eusci_b_i2c.d" "driverlib\MSP430FR57xx\eusci_b_spi.d" "driverlib\MSP430FR57xx\framctl.d" "driverlib\MSP430FR57xx\gpio.d" "driverlib\MSP430FR57xx\mpu.d" "driverlib\MSP430FR57xx\mpy32.d" "driverlib\MSP430FR57xx\pmm.d" "driverlib\MSP430FR57xx\ref.d" "driverlib\MSP430FR57xx\rtc_b.d" "driverlib\MSP430FR57xx\sfr.d" "driverlib\MSP430FR57xx\sysctl.d" "driverlib\MSP430FR57xx\timer_a.d" "driverlib\MSP430FR57xx\timer_b.d" "driverlib\MSP430FR57xx\tlv.d" "driverlib\MSP430FR57xx\wdt_a.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

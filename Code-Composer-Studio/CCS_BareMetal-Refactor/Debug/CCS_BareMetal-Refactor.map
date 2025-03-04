@@ -1,7 +1,7 @@
 ******************************************************************************
-                  MSP430 Linker Unix v21.6.1                   
+                  MSP430 Linker PC v21.6.0                     
 ******************************************************************************
->> Linked Tue Mar  4 11:23:38 2025
+>> Linked Tue Mar  4 12:20:00 2025
 
 OUTPUT FILE NAME:   <CCS_BareMetal-Refactor.out>
 ENTRY POINT SYMBOL: "_c_int00_noinit_noargs_mpu"  address: 0000c6b0
@@ -226,7 +226,7 @@ MODULE SUMMARY
 
        Module                code   ro data   rw data
        ------                ----   -------   -------
-    ./
+    .\
        System_Ports.obj      1066   0         0      
        System_Clocks.obj     122    0         0      
        System.obj            14     0         0      
@@ -234,12 +234,12 @@ MODULE SUMMARY
     +--+---------------------+------+---------+---------+
        Total:                1204   0         0      
                                                      
-    /Applications/ti/ccs2002/ccs/ccs_base/msp430/lib/FR57xx/MPU_INIT_FR57XX_LIB_CCS_msp430_large_code_small_data.lib
+    C:\ti\ccs1200\ccs\ccs_base\msp430\lib\FR57xx\MPU_INIT_FR57XX_LIB_CCS_msp430_large_code_small_data.lib
        mpu_init_fr57xx.obj   34     0         0      
     +--+---------------------+------+---------+---------+
        Total:                34     0         0      
                                                      
-    /Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib/rts430x_lc_sd_eabi.lib
+    C:\ti\ccs1200\ccs\tools\compiler\ti-cgt-msp430_21.6.0.LTS\lib\rts430x_lc_sd_eabi.lib
        boot.c.obj            24     2         0      
        isr_trap.asm.obj      8      0         0      
        exit.c.obj            6      0         0      
