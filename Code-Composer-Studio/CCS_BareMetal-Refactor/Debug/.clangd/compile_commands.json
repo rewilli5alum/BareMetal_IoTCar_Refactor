@@ -1,137 +1,137 @@
 [
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/adc10_b.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/System.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/comp_d.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/System_Clocks.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/crc.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/System_Ports.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/cs.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/System_Timers.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/dma.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/adc10_b.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/eusci_a_spi.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/comp_d.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/eusci_a_uart.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/crc.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/eusci_b_i2c.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/cs.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/eusci_b_spi.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/dma.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/framctl.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/eusci_a_spi.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/gpio.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/eusci_a_uart.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/mpu.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/eusci_b_i2c.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/mpy32.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/eusci_b_spi.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/pmm.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/framctl.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/ref.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/gpio.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/rtc_b.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/mpu.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/sfr.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/mpy32.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/sysctl.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/pmm.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/timer_a.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/ref.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/timer_b.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/rtc_b.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/tlv.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/sfr.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/wdt_a.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/sysctl.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/main.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/timer_a.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/System_Clocks.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/timer_b.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/System_Ports.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/tlv.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/System_Timers.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx/wdt_a.c"
    },
    {
-      "directory" : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
-      "command"   : "clang++ -I\"/Applications/ti/ccs2002/ccs/ccs_base/msp430/include\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"/Applications/ti/ccs2002/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
-      "file"      : "/Users/devrew/Documents/PROJ_CCS/CCS_Git/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/System.c"
+      "directory" : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2010/ccs/ccs_base/msp430/include\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor\" -I\"C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/driverlib/MSP430FR57xx\" -I\"C:/ti/ccs2010/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -D__MSP430FR5739__ -D_MPU_ENABLE -DDEPRECATED",
+      "file"      : "C:/Users/REW_DEV/Documents/GIT_LocalRepos/BareMetal_IoTCar_Refactor/Code-Composer-Studio/CCS_BareMetal-Refactor/main.c"
    }
 ]

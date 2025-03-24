@@ -2,7 +2,7 @@
 //   Name: System.c
 //   Author: Rachel E. Williams
 //   Date Created: February 24, 2025
-//   Last Updated: 2/27/2025
+//   Last Updated: 3/24/2025
 //   Description: This file contains high-level system directives for the 
 //                project
 //   Built with IAR Embedded Workbench IDE - MSP430 V8.10.3 
@@ -49,14 +49,21 @@ void disable_interrupts(void){
 
 void System_InitAll(void){
   // 1. System Resets, Interrupts, Operating Modes 
+
   // (d)2. Clock System 
   Init_ClockSystem(); 
+
   // 3. DMA 
+
   // (d)4. GPIO (Ports)
   Init_AllPorts(); 
+
   // (d)  5. Timers (WDT, TimerA, TimerB)
   Init_Timers(); 
+
   // 6. ADC10_B 
+
   // 7. eUSCI - UART Mode 
+  
   // 8. eUSCI - SPI Mode  
 }
