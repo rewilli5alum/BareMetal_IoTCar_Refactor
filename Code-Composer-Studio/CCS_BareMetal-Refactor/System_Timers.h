@@ -9,7 +9,10 @@
 //   Primarily built with Code Composer Studio 20.1.0.6
 //****************************************************************************** 
 
-/* Macros */ 
+/* Macros */
+#define TACCR0_INTERVAL                   (125) 
+//#define TACCR1_INTERVAL                   (1)
+//#define TACCR2_INTERVAL                   (1) 
 
 /* Function declarations */ 
 //------------------------------------------------------------------------------
@@ -65,4 +68,4 @@ void Init_TimerB1(void);
 //   Input parameters: N/A
 //   Return: N/A
 //------------------------------------------------------------------------------
-void Init_TimerB2(void);
+void Init_Timer_B2(void);
