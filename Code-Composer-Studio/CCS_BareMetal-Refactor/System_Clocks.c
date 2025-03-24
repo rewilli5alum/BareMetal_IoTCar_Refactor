@@ -8,7 +8,7 @@
 //                setup for Low-Power Mode(s) and time delays to be used 
 //                throughout the entire system 
 //   Built with IAR Embedded Workbench IDE - MSP430 V8.10.3 
-
+//   Primarily built with Code Composer Studio 20.1.0.6
 //******************************************************************************  
 
 /* #includes */

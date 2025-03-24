@@ -6,6 +6,7 @@
 //   Description: This file contains high-level system directives for the 
 //                project
 //   Built with IAR Embedded Workbench IDE - MSP430 V8.10.3 
+//   Primarily built with Code Composer Studio 20.1.0.6
 //******************************************************************************  
 
 /* #includes */

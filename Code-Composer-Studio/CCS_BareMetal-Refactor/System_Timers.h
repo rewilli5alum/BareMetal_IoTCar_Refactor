@@ -6,6 +6,7 @@
 //   Description: This file contains the configuration and initialization of 
 //                the Timers for the MSP430FR5739 board
 //   Built with IAR Embedded Workbench IDE - MSP430 V8.10.3 
+//   Primarily built with Code Composer Studio 20.1.0.6
 //****************************************************************************** 
 
 /* Macros */ 
