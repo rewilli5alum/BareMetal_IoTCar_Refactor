@@ -2,7 +2,7 @@
 //   Name: System.c
 //   Author: Rachel E. Williams
 //   Date Created: February 24, 2025
-//   Last Updated: 3/24/2025
+//   Last Updated: 3/25/2025
 //   Description: This file contains high-level system directives for the 
 //                project
 //   Built with IAR Embedded Workbench IDE - MSP430 V8.10.3 
@@ -57,7 +57,7 @@ void System_InitAll(void){
   // 3. DMA 
 
   // (d)4. GPIO (Ports)
-  Init_AllPorts(); 
+  Init_Ports(); 
 
   // (d)  5. Timers (WDT, TimerA, TimerB)
   Init_Timers(); 
@@ -68,3 +68,9 @@ void System_InitAll(void){
   
   // 8. eUSCI - SPI Mode  
 }
+
+// Low-Power Mode(s) Initialization 
+void Init_LowPowerModes(){
+
+}
+

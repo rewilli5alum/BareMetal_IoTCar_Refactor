@@ -2,7 +2,7 @@
 //   Name: System_Clocks.c
 //   Author: Rachel E. Williams
 //   Date Created: February 22, 2025
-//   Last Updated: 2/22/2025
+//   Last Updated: 3/25/2025
 //   Description: This file contains the configuration and initialization of 
 //                the Clock System for the MSP430FR5739 board, in addition to 
 //                setup for Low-Power Mode(s) and time delays to be used 
@@ -104,11 +104,6 @@ void Init_ClockSystem(){
   CSCTL6 &= ~MCLKREQEN;         // Disables requests for MCLK 
   CSCTL6 &= ~ACLKREQEN;         // Disables requests for ACLK
 */
-}
-
-// Low-Power Mode(s) Initialization 
-void Init_LowPowerModes(){
-
 }
 
 // Time delay logic 

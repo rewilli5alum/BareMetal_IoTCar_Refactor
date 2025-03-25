@@ -2,7 +2,7 @@
 //   Name: System_Ports.c
 //   Author: Rachel E. Williams
 //   Date Created: February 23, 2025
-//   Last Updated: 3/24/2025
+//   Last Updated: 3/25/2025
 //   Description: This file contains the configuration and initialization of 
 //                Ports 1,2,3,4, and J for the system--the MSP430FR5739 board
 //                and custom ASIC Control Board 
@@ -18,7 +18,7 @@
 
 /* Constant Variables */
 
-void Init_AllPorts(void){
+void Init_Ports(void){
   Init_Port1(); 
   Init_Port2(); 
   Init_Port3(); 
@@ -86,7 +86,7 @@ void Init_Port1(void){
   P1SEL0 &= ~SPI_CS_LCD;           // Configured pin function as GPIO 
   P1SEL1 &= ~SPI_CS_LCD;           // Configured pin function as GPIO
   P1IES &= ~SPI_CS_LCD;            // Interrupt edge select - low to high 
-  P1IE &= ~SPI_CS_LCD;             // Interrupts disabled 
+  P1IE &= ~SPI_CS_LCD;             // Interrupts disabled for pin
   P1IFG &= ~SPI_CS_LCD;            // No interrupt flags pending  
 
   // P1.5 - RS_LCD
@@ -95,7 +95,7 @@ void Init_Port1(void){
   P1SEL0 &= ~RS_LCD;               // Configured pin function as GPIO 
   P1SEL1 &= ~RS_LCD;               // Configured pin function as GPIO
   P1IES &= ~RS_LCD;                // Interrupt edge select - low to high 
-  P1IE &= ~RS_LCD;                 // Interrupts disabled 
+  P1IE &= ~RS_LCD;                 // Interrupts disabled for pin
   P1IFG &= ~RS_LCD;                // No interrupt flags pending 
 
   // P1.6 - SPI_SIMO_B
@@ -318,7 +318,7 @@ void Init_Port4(void){
   P4SEL0 &= ~SW1;                  // Configured pin function as GPIO 
   P4SEL1 &= ~SW1;                  // Configured pin function as GPIO 
   P4IES |= SW1;                    // Interrupts set on high-to-low transition 
-  P4IE &= ~SW1;                    // Interrupts enabled for pin 
+  P4IE |=  SW1;                    // Interrupts enabled for pin 
   P4IFG &= ~SW1;                   // Clearing interrupt flag for pin  
   
   // P4.1 - SW2
@@ -328,7 +328,7 @@ void Init_Port4(void){
   P4SEL0 &= ~SW2;                  // Configured pin function as GPIO 
   P4SEL1 &= ~SW2;                  // Configured pin function as GPIO 
   P4IES |= SW2;                    // Interrupts set on high-to-low transition 
-  P4IE &= ~SW2;                    // Interrupts enabled for pin 
+  P4IE |=  SW2;                    // Interrupts enabled for pin 
   P4IFG &= ~SW2;                   // Clearing interrupt flag for pin  
 }
 

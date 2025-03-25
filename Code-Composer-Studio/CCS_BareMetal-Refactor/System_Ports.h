@@ -2,7 +2,7 @@
 //   Name: System_Ports.h
 //   Author: Rachel E. Williams
 //   Date Created: February 23, 2025
-//   Last Updated: 3/24/2025
+//   Last Updated: 3/25/2025
 //   Description: This is the header file for System_Ports.c, containing 
 //                function declarations and relevant macros 
 //   Built with IAR Embedded Workbench IDE - MSP430 V8.10.3 
@@ -56,14 +56,14 @@
 
 /* Function declarations */ 
 //------------------------------------------------------------------------------
-//   Name: Init_AllPorts()
+//   Name: Init_Ports()
 //   Description: Runs configuration and initialization of all ports within the 
 //                system 
 //   Global variables: N/A
 //   Input parameters: N/A
 //   Return: N/A
 //------------------------------------------------------------------------------
-void Init_AllPorts(void);
+void Init_Ports(void);
 
 //------------------------------------------------------------------------------
 //   Name: Init_Port1()
