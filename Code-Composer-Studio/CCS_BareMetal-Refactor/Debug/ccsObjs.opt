@@ -1,4 +1,5 @@
 "./System.obj"
+"./System_ADC10_B.obj"
 "./System_Clocks.obj"
 "./System_Ports.obj"
 "./System_Timers.obj"

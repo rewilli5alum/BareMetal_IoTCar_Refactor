@@ -2,7 +2,7 @@
 //   Name: System_Clocks.c
 //   Author: Rachel E. Williams
 //   Date Created: February 22, 2025
-//   Last Updated: 3/25/2025
+//   Last Updated: 3/31/2025
 //   Description: This file contains the configuration and initialization of 
 //                the Clock System for the MSP430FR5739 board, in addition to 
 //                setup for Low-Power Mode(s) and time delays to be used 
@@ -25,7 +25,7 @@ void Init_ClockSystem(){
   // Disabling WatchDog Timer A 
   WDTCTL = WDTPW | WDTHOLD; 
   
-  /* Clock System Control Register 0: Lock/unlock registers with CSKEY */
+  /* Clock System Control Register 0: Unlock registers with CSKEY */
   CSCTL0 = CSKEY;  
   
   /* Clock System Control Register 1: DCO range and clock frequency selection */
@@ -104,6 +104,7 @@ void Init_ClockSystem(){
   CSCTL6 &= ~MCLKREQEN;         // Disables requests for MCLK 
   CSCTL6 &= ~ACLKREQEN;         // Disables requests for ACLK
 */
+
 }
 
 // Time delay logic 

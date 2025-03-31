@@ -10,6 +10,7 @@ CMD_SRCS += \
 
 C_SRCS += \
 ../System.c \
+../System_ADC10_B.c \
 ../System_Clocks.c \
 ../System_Ports.c \
 ../System_Timers.c \
@@ -17,6 +18,7 @@ C_SRCS += \
 
 C_DEPS += \
 ./System.d \
+./System_ADC10_B.d \
 ./System_Clocks.d \
 ./System_Ports.d \
 ./System_Timers.d \
@@ -24,6 +26,7 @@ C_DEPS += \
 
 OBJS += \
 ./System.obj \
+./System_ADC10_B.obj \
 ./System_Clocks.obj \
 ./System_Ports.obj \
 ./System_Timers.obj \
@@ -31,6 +34,7 @@ OBJS += \
 
 OBJS__QUOTED += \
 "System.obj" \
+"System_ADC10_B.obj" \
 "System_Clocks.obj" \
 "System_Ports.obj" \
 "System_Timers.obj" \
@@ -38,6 +42,7 @@ OBJS__QUOTED += \
 
 C_DEPS__QUOTED += \
 "System.d" \
+"System_ADC10_B.d" \
 "System_Clocks.d" \
 "System_Ports.d" \
 "System_Timers.d" \
@@ -45,6 +50,7 @@ C_DEPS__QUOTED += \
 
 C_SRCS__QUOTED += \
 "../System.c" \
+"../System_ADC10_B.c" \
 "../System_Clocks.c" \
 "../System_Ports.c" \
 "../System_Timers.c" \

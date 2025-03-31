@@ -2,7 +2,7 @@
 //   Name: System.c
 //   Author: Rachel E. Williams
 //   Date Created: February 24, 2025
-//   Last Updated: 3/25/2025
+//   Last Updated: 3/31/2025
 //   Description: This file contains high-level system directives for the 
 //                project
 //   Built with IAR Embedded Workbench IDE - MSP430 V8.10.3 
@@ -15,6 +15,7 @@
 #include "System_Ports.h"
 #include "System_Clocks.h"
 #include "System_Timers.h"
+#include "System_ADC10_B.h"
 
 /* Global Variables */
 
@@ -62,7 +63,8 @@ void System_InitAll(void){
   // (d)  5. Timers (WDT, TimerA, TimerB)
   Init_Timers(); 
 
-  // 6. ADC10_B 
+  // (d) 6. ADC10_B 
+  Init_ADC10_B();
 
   // 7. eUSCI - UART Mode 
   
