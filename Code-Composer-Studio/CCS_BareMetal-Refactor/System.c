@@ -2,7 +2,7 @@
 //   Name: System.c
 //   Author: Rachel E. Williams
 //   Date Created: February 24, 2025
-//   Last Updated: 3/31/2025
+//   Last Updated: 4/2/2025
 //   Description: This file contains high-level system directives for the 
 //                project
 //   Built with IAR Embedded Workbench IDE - MSP430 V8.10.3 
@@ -66,9 +66,9 @@ void System_InitAll(void){
   // (d) 6. ADC10_B 
   Init_ADC10_B();
 
-  // 7. eUSCI - UART Mode 
+  // (d) 7. eUSCI - UART Mode -- not used for refactor 
   
-  // 8. eUSCI - SPI Mode  
+  // (d) 8. eUSCI - SPI Mode  -- not used for refactor; handled in LCD.r43 
 }
 
 // Low-Power Mode(s) Initialization 

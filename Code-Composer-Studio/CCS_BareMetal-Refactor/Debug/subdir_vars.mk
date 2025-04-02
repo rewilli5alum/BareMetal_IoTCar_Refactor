@@ -9,6 +9,7 @@ CMD_SRCS += \
 ../lnk_msp430fr5739.cmd 
 
 C_SRCS += \
+../LCD.c \
 ../System.c \
 ../System_ADC10_B.c \
 ../System_Clocks.c \
@@ -17,6 +18,7 @@ C_SRCS += \
 ../main.c 
 
 C_DEPS += \
+./LCD.d \
 ./System.d \
 ./System_ADC10_B.d \
 ./System_Clocks.d \
@@ -25,6 +27,7 @@ C_DEPS += \
 ./main.d 
 
 OBJS += \
+./LCD.obj \
 ./System.obj \
 ./System_ADC10_B.obj \
 ./System_Clocks.obj \
@@ -33,6 +36,7 @@ OBJS += \
 ./main.obj 
 
 OBJS__QUOTED += \
+"LCD.obj" \
 "System.obj" \
 "System_ADC10_B.obj" \
 "System_Clocks.obj" \
@@ -41,6 +45,7 @@ OBJS__QUOTED += \
 "main.obj" 
 
 C_DEPS__QUOTED += \
+"LCD.d" \
 "System.d" \
 "System_ADC10_B.d" \
 "System_Clocks.d" \
@@ -49,6 +54,7 @@ C_DEPS__QUOTED += \
 "main.d" 
 
 C_SRCS__QUOTED += \
+"../LCD.c" \
 "../System.c" \
 "../System_ADC10_B.c" \
 "../System_Clocks.c" \

@@ -1,3 +1,4 @@
+"./LCD.obj"
 "./System.obj"
 "./System_ADC10_B.obj"
 "./System_Clocks.obj"

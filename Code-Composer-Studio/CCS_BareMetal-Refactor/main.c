@@ -34,7 +34,7 @@
 //   Name: main.c
 //   Author: Rachel E. Williams
 //   Date Created: February 22, 2025
-//   Last Updated: 3/24/2025
+//   Last Updated: 4/2/2025
 //   Description: This file contains the main routine to run the entire project
 //                using while(1) "Super Loop" architecture
 //   Previously built with IAR Embedded Workbench IDE - MSP430 V8.10.3 
@@ -45,6 +45,7 @@
 #include "driverlib.h"
 #include "msp430.h" 
 #include "System.h"
+#include "LCD.h"
 
 /* Global Variables */ 
 
@@ -53,12 +54,23 @@
 
 void main(void){
   // system-wide init 
-  System_InitAll();   
-  
+  System_InitAll(); 
+
+  /* Unable to run LCD due to unable to open .r43 IAR object file
+  Init_LCD(); 
+  display_1 = "Test"; 
+  posL1 = 3; 
+  display_2 = "Hello"; 
+  posL2 = 1; 
+  display_3 = "No"; 
+  posL3 = 2; 
+  display_4 = "hehe";  
+  posL4 = 1; 
+  LCD_Update();  
+  */
+
   //GPIO-specific init 
-  //---->LCD.c 
-  //---->IoT.c '
-  //---->Switches.c 
+  //---->IoT.c 
   //---->Motors.c 
 
 }
